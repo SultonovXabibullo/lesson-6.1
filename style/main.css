@@ -1,0 +1,48 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.Vaqt {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    font-size: 2em;
+}
+#soat, #minut, #sekund {
+    color: #333;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.Vaqt {
+    background: #1e1e1e;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 10px;
+    font-size: 3em;
+    color: #fff;
+}
+#soat, #minut, #sekund {
+    color: #61dafb;
+}
+#soat::after, #minut::after {
+    content: ":";
+    color: #fff;
+}
